@@ -1,0 +1,15 @@
+[0;1;32m●[0m php8.0-fpm.service - The PHP 8.0 FastCGI Process Manager
+     Loaded: loaded (/lib/systemd/system/php8.0-fpm.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2021-03-10 11:50:13 CET; 20min ago
+       Docs: man:php-fpm8.0(8)
+   Main PID: 20596 (php-fpm8.0)
+     Status: "Processes active: 0, idle: 2, Requests: 0, slow: 0, Traffic: 0req/sec"
+      Tasks: 3 (limit: 4850)
+     Memory: 9.0M
+     CGroup: /system.slice/php8.0-fpm.service
+             ├─20596 php-fpm: master process (/etc/php/8.0/fpm/php-fpm.conf)
+             ├─20598 php-fpm: pool www
+             └─20599 php-fpm: pool www
+
+مارس 10 11:50:13 imen-VirtualBox systemd[1]: Starting The PHP 8.0 FastCGI Process Manager...
+مارس 10 11:50:13 imen-VirtualBox systemd[1]: Started The PHP 8.0 FastCGI Process Manager.

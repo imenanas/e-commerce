@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    list-style: none;
+}
+body{
+font-family: $roboto;
+color:$textColor;
+font-size: $fontSeize;
+line-height: $lineHeight;
+background:$bodyColor ;
+}
