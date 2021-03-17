@@ -42,3 +42,24 @@ body {
   padding: 10px 250px;
   color: #fff;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid .grid_item {
+  margin: 5px;
+}
+.grid .grid_item .img_container {
+  max-width: 200px;
+}
+.grid .grid_item .img_container img {
+  width: 100%;
+  height: auto;
+}
+.grid .grid_item .btn_commander {
+  background: sienna;
+  color: snow;
+  font-size: 14px;
+  padding: 2px 50px;
+}

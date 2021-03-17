@@ -1,0 +1,29 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+
+.grid_item{
+    margin: 5px;
+
+
+    .img_container {
+        
+        max-width: 200px;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+        .product_list{
+
+        }
+        .btn_commander{
+            background:sienna;
+            color:snow;
+            font-size: 14px;
+            padding: 2px 50px;
+        }
+    }
+
+}
