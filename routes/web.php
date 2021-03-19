@@ -14,14 +14,19 @@ use App\Http\Controllers\ProductsController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (){
     return view('welcome');
-});
+})->name ('racine');
 Route::get('/contact', function () {
     return view('contact');
 });
 
 Auth::routes();
 
+Route::middleware(['verifAge'])->group(function() {
+Route::view('/check', 'check');
+});
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::resource('products', ProductsController::class);
